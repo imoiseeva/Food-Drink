@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Ребрышки.jpg",
+      "filename" : "Шашлык.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Ребрышки@2x.jpg",
+      "filename" : "Шашлык@2x.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Ребрышки@3x.jpg",
+      "filename" : "Шашлык@3x.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }

@@ -1,15 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "shaslik1.jpg",
+      "filename" : "Жареный сыр.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "Жареный сыр@2x.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "Жареный сыр@3x.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }
