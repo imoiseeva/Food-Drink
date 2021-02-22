@@ -86,6 +86,7 @@
                         </connections>
                     </tableView>
                     <tabBarItem key="tabBarItem" title="Drinks" image="person.3.fill" catalog="system" id="rUM-nK-wKP"/>
+                    <navigationItem key="navigationItem" id="O7f-4t-igw"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jab-Uo-2BZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -129,7 +130,9 @@
             <objects>
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="jNk-2W-oBS" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" id="p9X-df-L3E"/>
+                    <navigationItem key="navigationItem" id="p9X-df-L3E">
+                        <barButtonItem key="rightBarButtonItem" image="plus" catalog="system" id="yJr-YS-ZhZ"/>
+                    </navigationItem>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0aN-SC-CfK">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -147,27 +150,37 @@
         <!--Food-->
         <scene sceneID="9pk-PD-G7y">
             <objects>
-                <tableViewController id="ncZ-zH-4ai" sceneMemberID="viewController">
+                <tableViewController id="ncZ-zH-4ai" customClass="FoodTableViewController" customModule="Food_Drink" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Akm-7a-tDb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="OVn-cG-Kar">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="5ET-d5-veg" style="IBUITableViewCellStyleDefault" id="OVn-cG-Kar">
                                 <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="OVn-cG-Kar" id="NPp-fo-P8h">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5ET-d5-veg">
+                                            <rect key="frame" x="20" y="0.0" width="374" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
                         <connections>
-                            <outlet property="dataSource" destination="ncZ-zH-4ai" id="eb1-W9-0ef"/>
-                            <outlet property="delegate" destination="ncZ-zH-4ai" id="FxS-ZQ-pu0"/>
+                            <outlet property="dataSource" destination="ncZ-zH-4ai" id="8M7-qC-Gt3"/>
+                            <outlet property="delegate" destination="ncZ-zH-4ai" id="CSF-gQ-WH3"/>
                         </connections>
                     </tableView>
                     <tabBarItem key="tabBarItem" title="Food" image="filemenu.and.cursorarrow" catalog="system" id="9J0-4s-tkl"/>
+                    <navigationItem key="navigationItem" id="yom-M7-PT0"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qmn-lr-q3B" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
