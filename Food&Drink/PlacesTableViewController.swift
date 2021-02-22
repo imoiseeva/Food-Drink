@@ -23,6 +23,16 @@ class PlacesTableViewController: UITableViewController {
             withIdentifier: "placeCell",
             for: indexPath
         ) as! PlacesTableViewCell
+        
+        let place = places[indexPath.row]
+        
+        cell.typeLabel.text = place.type
+        cell.nameLabel.text = place.name
+        cell.workingHoursLabel.text = place.workingHours
+        cell.addressLabel.text = place.address
+        cell.phoneLabel.text = place.phone
+        cell.placeImageView.image = UIImage(named: place.name)
+        
         return cell
     }
     

@@ -15,5 +15,4 @@ class PlacesTableViewCell: UITableViewCell {
     @IBOutlet var workingHoursLabel: UILabel!
     @IBOutlet var addressLabel: UILabel!
     @IBOutlet var phoneLabel: UILabel!
-    
 }
