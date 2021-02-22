@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F5A14A125E3FA9E00480C4D /* PlacesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5A14A025E3FA9E00480C4D /* PlacesTableViewCell.swift */; };
+		1F5A14A525E4017E00480C4D /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5A14A425E4017E00480C4D /* Place.swift */; };
+		1F5A14A825E4022200480C4D /* PlaceDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5A14A725E4022200480C4D /* PlaceDataManager.swift */; };
 		5F472E6C25E392BF0076C500 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F472E6B25E392BF0076C500 /* AppDelegate.swift */; };
 		5F472E6E25E392BF0076C500 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F472E6D25E392BF0076C500 /* SceneDelegate.swift */; };
 		5F472E7025E392BF0076C500 /* PlacesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F472E6F25E392BF0076C500 /* PlacesTableViewController.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F5A14A025E3FA9E00480C4D /* PlacesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesTableViewCell.swift; sourceTree = "<group>"; };
+		1F5A14A425E4017E00480C4D /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		1F5A14A725E4022200480C4D /* PlaceDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDataManager.swift; sourceTree = "<group>"; };
 		5F472E6825E392BF0076C500 /* Food&Drink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food&Drink.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F472E6B25E392BF0076C500 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F472E6D25E392BF0076C500 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,8 +67,11 @@
 				5F472E6B25E392BF0076C500 /* AppDelegate.swift */,
 				5F472E6D25E392BF0076C500 /* SceneDelegate.swift */,
 				5F472E6F25E392BF0076C500 /* PlacesTableViewController.swift */,
+				1F5A14A425E4017E00480C4D /* Place.swift */,
+				1F5A14A725E4022200480C4D /* PlaceDataManager.swift */,
 				5F472E7125E392BF0076C500 /* Main.storyboard */,
 				5F472EA525E3E3070076C500 /* FoodTableViewController.swift */,
+				1F5A14A025E3FA9E00480C4D /* PlacesTableViewCell.swift */,
 				5F472E7425E392C20076C500 /* Assets.xcassets */,
 				5F472E7625E392C20076C500 /* LaunchScreen.storyboard */,
 				5F472E7925E392C20076C500 /* Info.plist */,
@@ -144,6 +153,9 @@
 				5F472E6C25E392BF0076C500 /* AppDelegate.swift in Sources */,
 				5F472E6E25E392BF0076C500 /* SceneDelegate.swift in Sources */,
 				5F472EA625E3E3070076C500 /* FoodTableViewController.swift in Sources */,
+				1F5A14A825E4022200480C4D /* PlaceDataManager.swift in Sources */,
+				1F5A14A125E3FA9E00480C4D /* PlacesTableViewCell.swift in Sources */,
+				1F5A14A525E4017E00480C4D /* Place.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
