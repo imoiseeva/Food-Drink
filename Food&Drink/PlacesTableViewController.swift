@@ -39,6 +39,12 @@ class PlacesTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         140
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let tabBarController = segue.destination as! UITabBarController
+        let foodVC = tabBarController.viewControllers?.first as! FoodTableViewController
+        
+    }
 
 }
 
