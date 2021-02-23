@@ -46,16 +46,16 @@ class PlacesTableViewController: UITableViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-/*
+
         let tabBarController = segue.destination as! UITabBarController
         let foodVC = tabBarController.viewControllers?.first as! FoodTableViewController
         let drinkVC = tabBarController.viewControllers?.last as! DrinkTableViewController
 
-        foodVC.places =
-        = select
-        drinkVC.places = menuDrink
+//        foodVC.places =
+//        = select
+        drinkVC.menuDrink = places
         drinkVC.selectedCell = select
-*/
+
     }
 }
 
