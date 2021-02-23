@@ -27,7 +27,7 @@ class DrinkTableViewController: UITableViewController {
         
        
         var content = cell.defaultContentConfiguration()
-        content.text = menuDrink[indexPath.row]
+        content.text = menuDrink.drinkMenu[selectedCell[indexPath.row]]
         content.image = UIImage(named: menuDrink[indexPath.row])
         content.secondaryText = "Цена: 500р"
         
