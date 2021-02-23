@@ -9,10 +9,8 @@ import UIKit
 
 class DrinkTableViewController: UITableViewController {
     
-    let menuDrink = [
-    "REMIX SERIES: MAUKI", "RUSSIAN IMPERIAL STOUT V.IV",
-        "MACRO SERIES: SMOKY PEPPERS", "BRAVADA XMAS BOCK "
-    ]
+    var menuDrink:[Place] = []
+    var selectedCell = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
