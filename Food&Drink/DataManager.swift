@@ -1,5 +1,5 @@
 //
-//  PlaceDataManager.swift
+//  DataManager.swift
 //  Food&Drink
 //
 //  Created by Александр on 22.02.2021.

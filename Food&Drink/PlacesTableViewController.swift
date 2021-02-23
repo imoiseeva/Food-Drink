@@ -45,12 +45,12 @@ class PlacesTableViewController: UITableViewController {
         select = indexPath.row
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let tabBarController = segue.destination as! UITabBarController
-        let foodVC = tabBarController.viewControllers?.first as! FoodTableViewController
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        let tabBarController = segue.destination as! UITabBarController
+//        let foodVC = tabBarController.viewControllers?.first as! FoodTableViewController
 //        let drinkVC = tabBarController.viewControllers?.last as! DrinkTableViewController
 //        foodVC.select = select
-    }
+//    }
 
 }
 
