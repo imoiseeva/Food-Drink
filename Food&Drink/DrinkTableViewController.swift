@@ -10,7 +10,7 @@ import UIKit
 class DrinkTableViewController: UITableViewController {
     
     let menuDrink = [
-    "beer REMIX SERIES: MAUKI", "RUSSIAN IMPERIAL STOUT V.IV",
+    "REMIX SERIES: MAUKI", "RUSSIAN IMPERIAL STOUT V.IV",
         "MACRO SERIES: SMOKY PEPPERS", "BRAVADA XMAS BOCK "
     ]
     
