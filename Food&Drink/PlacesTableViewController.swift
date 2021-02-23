@@ -9,7 +9,8 @@ import UIKit
 
 class PlacesTableViewController: UITableViewController {
   
-    let places = Place.getInfo()
+    private let places = Place.getInfo()
+    private var select = 0
     
 
     override func tableView(_ tableView: UITableView,
@@ -39,11 +40,16 @@ class PlacesTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         140
     }
+
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        select = indexPath.row
+    }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let tabBarController = segue.destination as! UITabBarController
         let foodVC = tabBarController.viewControllers?.first as! FoodTableViewController
-        
+//        let drinkVC = tabBarController.viewControllers?.last as! DrinkTableViewController
+//        foodVC.select = select
     }
 
 }
