@@ -72,20 +72,36 @@
 			children = (
 				5F472E6B25E392BF0076C500 /* AppDelegate.swift */,
 				5F472E6D25E392BF0076C500 /* SceneDelegate.swift */,
-				5F472E6F25E392BF0076C500 /* PlacesTableViewController.swift */,
-				1F5A14A425E4017E00480C4D /* Place.swift */,
-				1F5A14A725E4022200480C4D /* PlaceDataManager.swift */,
-				5F472EC825E62BE90076C500 /* Drinks.swift */,
-				5F472EC525E626E10076C500 /* Food.swift */,
+				5F472ECD25E62F590076C500 /* Controllers */,
+				5F472ECB25E62F2A0076C500 /* Models */,
 				5F472E7125E392BF0076C500 /* Main.storyboard */,
-				5F472EA525E3E3070076C500 /* FoodTableViewController.swift */,
-				1F5A14A025E3FA9E00480C4D /* PlacesTableViewCell.swift */,
 				5F472E7425E392C20076C500 /* Assets.xcassets */,
-				5B5A05A725E4ED6F009CCCC2 /* DrinkTableViewController.swift */,
 				5F472E7625E392C20076C500 /* LaunchScreen.storyboard */,
 				5F472E7925E392C20076C500 /* Info.plist */,
 			);
 			path = "Food&Drink";
+			sourceTree = "<group>";
+		};
+		5F472ECB25E62F2A0076C500 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1F5A14A425E4017E00480C4D /* Place.swift */,
+				1F5A14A725E4022200480C4D /* PlaceDataManager.swift */,
+				5F472EC825E62BE90076C500 /* Drinks.swift */,
+				5F472EC525E626E10076C500 /* Food.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5F472ECD25E62F590076C500 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5F472E6F25E392BF0076C500 /* PlacesTableViewController.swift */,
+				5F472EA525E3E3070076C500 /* FoodTableViewController.swift */,
+				5B5A05A725E4ED6F009CCCC2 /* DrinkTableViewController.swift */,
+				1F5A14A025E3FA9E00480C4D /* PlacesTableViewCell.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
