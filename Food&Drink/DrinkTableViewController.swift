@@ -9,27 +9,28 @@ import UIKit
 
 class DrinkTableViewController: UITableViewController {
     
-    var menuDrink:[Place] = []
+    let drink = Drinks.getDrink()
     var selectedCell = 0
+    var menuDrink = 1
     
     override func viewDidLoad() {
         super.viewDidLoad()
 }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return menuDrink.count
+        let dr = drink[menuDrink]
+        return drink.count
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "sellDrink", for: indexPath)
         
-       
+        let dr = drink[menuDrink]
         var content = cell.defaultContentConfiguration()
-     //   content.text = menuDrink.drinkMenu[selectedCell[indexPath.row]]
-       // content.image = UIImage(named: menuDrink[indexPath.row])
-        content.secondaryText = "Цена: 500р"
+        content.text = dr.drink[indexPath.row]
+        content.image = UIImage(named: dr.drink[indexPath.row])
+        content.secondaryText = dr.cost[indexPath.row]
         
         cell.contentConfiguration = content
 

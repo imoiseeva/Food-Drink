@@ -8,16 +8,16 @@
 import UIKit
 
 class PlacesTableViewController: UITableViewController {
-  
+    
     private let places = Place.getInfo()
     private var select = 0
     
-
+    
     override func tableView(_ tableView: UITableView,
                             numberOfRowsInSection section: Int) -> Int {
         places.count
     }
-
+    
     override func tableView(_ tableView: UITableView,
                             cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(
@@ -46,14 +46,14 @@ class PlacesTableViewController: UITableViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-
+        
         let tabBarController = segue.destination as! UITabBarController
         let foodVC = tabBarController.viewControllers?.first as! FoodTableViewController
         let drinkVC = tabBarController.viewControllers?.last as! DrinkTableViewController
         foodVC.index = select
-        drinkVC.menuDrink = places
+        drinkVC.menuDrink = select
         drinkVC.selectedCell = select
-
+        
     }
 }
 
