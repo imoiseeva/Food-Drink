@@ -18,6 +18,7 @@
 		5F472E7525E392C20076C500 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F472E7425E392C20076C500 /* Assets.xcassets */; };
 		5F472E7825E392C20076C500 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F472E7625E392C20076C500 /* LaunchScreen.storyboard */; };
 		5F472EA625E3E3070076C500 /* FoodTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F472EA525E3E3070076C500 /* FoodTableViewController.swift */; };
+		5F472EC625E626E10076C500 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F472EC525E626E10076C500 /* Food.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		5F472E7725E392C20076C500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F472E7925E392C20076C500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F472EA525E3E3070076C500 /* FoodTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewController.swift; sourceTree = "<group>"; };
+		5F472EC525E626E10076C500 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				5F472E6F25E392BF0076C500 /* PlacesTableViewController.swift */,
 				1F5A14A425E4017E00480C4D /* Place.swift */,
 				1F5A14A725E4022200480C4D /* PlaceDataManager.swift */,
+				5F472EC525E626E10076C500 /* Food.swift */,
 				5F472E7125E392BF0076C500 /* Main.storyboard */,
 				5F472EA525E3E3070076C500 /* FoodTableViewController.swift */,
 				1F5A14A025E3FA9E00480C4D /* PlacesTableViewCell.swift */,
@@ -157,6 +160,7 @@
 				5F472E6C25E392BF0076C500 /* AppDelegate.swift in Sources */,
 				5F472E6E25E392BF0076C500 /* SceneDelegate.swift in Sources */,
 				5F472EA625E3E3070076C500 /* FoodTableViewController.swift in Sources */,
+				5F472EC625E626E10076C500 /* Food.swift in Sources */,
 				1F5A14A825E4022200480C4D /* PlaceDataManager.swift in Sources */,
 				1F5A14A125E3FA9E00480C4D /* PlacesTableViewCell.swift in Sources */,
 				1F5A14A525E4017E00480C4D /* Place.swift in Sources */,

@@ -50,9 +50,7 @@ class PlacesTableViewController: UITableViewController {
         let tabBarController = segue.destination as! UITabBarController
         let foodVC = tabBarController.viewControllers?.first as! FoodTableViewController
         let drinkVC = tabBarController.viewControllers?.last as! DrinkTableViewController
-
-//        foodVC.places =
-//        = select
+        foodVC.index = select
         drinkVC.menuDrink = places
         drinkVC.selectedCell = select
 
