@@ -13,8 +13,7 @@ struct Place {
     let workingHours: String
     let address: String
     let phone: String
-    let foodMenu: [String]
-    let drinkMenu: [String]
+
 }
 
 extension Place {
@@ -27,8 +26,7 @@ extension Place {
         let workingHours = PlaceDataManager.shared.placeWorkingHours
         let adresses = PlaceDataManager.shared.placeAdresses
         let phones = PlaceDataManager.shared.placePhones
-        let foodMenues = PlaceDataManager.shared.foodMenues
-        let drinkMenues = PlaceDataManager.shared.drinksMenues
+
         
        
 //
@@ -38,9 +36,8 @@ extension Place {
                 name: names[index],
                 workingHours: workingHours[index],
                 address: adresses[index],
-                phone: phones[index],
-                foodMenu: foodMenues[index],
-                drinkMenu: drinkMenues[index]
+                phone: phones[index]
+
             )
             places.append(place)
         }

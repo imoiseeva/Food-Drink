@@ -25,7 +25,7 @@ class PlaceDataManager {
                     "улица 8 марта, 8д",
                     "улица 8 марта, 46"]
 
-]
+
     
     private init() {}
 }
